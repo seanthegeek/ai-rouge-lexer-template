@@ -14,12 +14,14 @@ Jekyll and GitHub Pages.
 | Placeholder | Description |
 | --- | --- |
 | `{{LANGUAGE_NAME}}` | Human-readable language name, e.g. `Splunk SPL` |
-| `{{AUTHOR_NAME}}` | Gem author name|
-| `{{DOCUMENTATION_URLS}}` | See the AGENTS.md section below |
+| `{LANGUAGE_SHORT_NAME}}` | A short, lowercase name for the language e.g., `spl` |
+| `{{GEM_NAME}}` | The name of the Ruby gem, e.g,  `rouge-lexer-<short-name>` |
+| `{{AUTHOR_NAME}}` | Gem author name |
+| `{{GITHUB_USERNAME}}` | Your github username |
+| `{{DOCUMENTATION_URLS}}` | See the AGENTS.md section below | 
 
 Derive all other values from the language name, author name, and documentation:
 
-- **Short name / tag** (`{{LANGUAGE_SHORT_NAME}}`): lowercase identifier, e.g. `spl`
 - **Description** (`{{LANGUAGE_DESCRIPTION}}`): one-line description of the language
 - **Class name** (`{{LANGUAGE_CLASS_NAME}}`): Ruby constant, e.g. `SPL` or `KQL`
 - **Gem name** (`{{GEM_NAME}}`): `rouge-lexer-<short-name>`

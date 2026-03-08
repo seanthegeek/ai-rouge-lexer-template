@@ -45,11 +45,14 @@ Edit the three placeholders at the top of the prompt before running it:
 | Placeholder | Description |
 | --- | --- |
 | `{{LANGUAGE_NAME}}` | Human-readable language name, e.g. `Splunk SPL` |
-| `{{AUTHOR_NAME}}` | Your name as it will appear in the gemspec |
+| `{LANGUAGE_SHORT_NAME}}` | A short, lowercase name for the language e.g., `spl` |
+| `{{GEM_NAME}}` | The name of the Ruby gem, e.g,  `rouge-lexer-<short-name>` |
+| `{{AUTHOR_NAME}}` | Gem author name |
+| `{{GITHUB_USERNAME}}` | Your github username |
 | `{{DOCUMENTATION_URLS}}` | Bulleted list of official language documentation URLs the AI must fetch |
 
-The AI derives everything else — short name, class name, gem name, tags, file
-extensions, MIME type, token mapping, detection heuristics — from the language
+The AI derives everything else —  class name, tags, file
+extensions, MIME type, token mapping, and detection heuristics — from the language
 name and the fetched documentation.
 
 ### 3. Provide documentation URLs
