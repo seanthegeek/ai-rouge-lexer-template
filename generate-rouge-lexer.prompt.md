@@ -40,7 +40,12 @@ Generate all files listed below. Substitute all derived values throughout.
 Do not invent syntax, keywords, functions, or language constructs — derive everything
 from the official documentation URLs provided in `{{DOCUMENTATION_URLS}}`.
 
+## README conventions
 
+The Jekyll / GitHub Pages section of [README.md](README.md) **must** include a
+`Gemfile` example showing the gem added inside `group :jekyll_plugins do … end`
+**before** the fenced code block examples. Do not omit this example or move it
+after the code blocks.
 
 ---
 
