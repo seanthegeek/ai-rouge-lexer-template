@@ -45,7 +45,7 @@ Edit the three placeholders at the top of the prompt before running it:
 | Placeholder | Description |
 | --- | --- |
 | `{{LANGUAGE_NAME}}` | Human-readable language name, e.g. `Splunk SPL` |
-| `{LANGUAGE_SHORT_NAME}}` | A short, lowercase name for the language e.g., `spl` |
+| `{{LANGUAGE_SHORT_NAME}}` | A short, lowercase name for the language e.g., `spl` |
 | `{{GEM_NAME}}` | The name of the Ruby gem, e.g,  `rouge-lexer-<short-name>` |
 | `{{AUTHOR_NAME}}` | Gem author name |
 | `{{GITHUB_USERNAME}}` | Your github username |

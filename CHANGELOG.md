@@ -13,6 +13,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - These values were previously derived automatically; making them explicit gives users more control
 - Removed `{{LANGUAGE_SHORT_NAME}}` from the "derived values" list in the prompt since it is now a user-supplied placeholder
 
+## [0.1.2] - 2026-03-08
+
+### Fixed
+
+- Fixed typo: missing opening `{` in `{{LANGUAGE_SHORT_NAME}}` placeholder in README
+
 ## [0.1.0] - 2025-02-01
 
 ### Added
@@ -23,5 +29,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Visual preview server (`bundle exec rake server`) and terminal preview script (`preview.rb`) with `DEBUG=1` token dump mode
 - Zero-error-token requirement enforced by both the test suite and the preview server
 
+[0.1.2]: https://github.com/seanthegeek/ai-rouge-lexer-template/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/seanthegeek/ai-rouge-lexer-template/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/seanthegeek/ai-rouge-lexer-template/releases/tag/v0.1.0
