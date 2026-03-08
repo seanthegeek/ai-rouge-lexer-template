@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-- Fixed typo: missing opening `{` in `{{LANGUAGE_SHORT_NAME}}` placeholder in README
+- Fixed typo: missing opening `{` in `{{LANGUAGE_SHORT_NAME}}` placeholder
 
 ## [0.1.1] - 2026-03-08
 
