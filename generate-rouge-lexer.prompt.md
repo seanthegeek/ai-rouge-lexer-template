@@ -407,7 +407,7 @@ error tokens**.
 
 ### `README.md`
 
-````markdown
+~~~markdown
 # {{GEM_NAME}}
 
 A Rouge lexer plugin for {{LANGUAGE_DESCRIPTION}}. Rouge is the default syntax
@@ -490,6 +490,10 @@ Enable debug mode to print each token and its value:
 ```sh
 DEBUG=1 ruby preview.rb
 ```
+## Colors
+
+The lexer tells Rouge how to identify tokens. Rouge wraps each token in a `span` tag with a `class` related to that token type. If you want to change how the tokens are highlighted, change themes or add custom CSS. 
+
 
 ### Iterative testing workflow
 
@@ -509,7 +513,7 @@ DEBUG=1 ruby preview.rb
 MIT
 ````
 
----
+~~~
 
 ### `CHANGELOG.md`
 
