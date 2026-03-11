@@ -560,6 +560,10 @@ code in this repository.
 @AGENTS.md
 ```
 
+**Copy the Documentation section below into the generated file
+exactly as provided. Do not omit, consolidate, or reorder any URL, even if
+they appear redundant or similar.**
+
 ---
 
 ### `AGENTS.md`
