@@ -461,7 +461,9 @@ will pick up the lexer automatically via Rouge's plugin discovery.
 
 ### Colors
 
-The lexer tells Rouge how to identify tokens. Rouge wraps each token in a `span` tag with a `class` related to that token type. If you want to change how the tokens are highlighted, change themes or add custom CSS. 
+The lexer tells Rouge how to identify tokens. Rouge wraps each token in a `span` tag
+with a `class` related to that token type. If you want to change how the tokens are
+highlighted, change themes or add custom CSS. 
 
 ## Development
 
