@@ -5,7 +5,7 @@ description: 'Generate a complete Rouge lexer gem project for a new language'
 
 # Create a Rouge Lexer Gem for {{LANGUAGE_NAME}}
 
-You are scaffolding a complete Ruby gem that provides a Rouge syntax-highlighting
+You are building a complete Ruby gem that provides a Rouge syntax-highlighting
 lexer for **{{LANGUAGE_NAME}}**. Rouge is the default syntax highlighter used by
 Jekyll and GitHub Pages.
 
